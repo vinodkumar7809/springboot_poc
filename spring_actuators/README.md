@@ -36,5 +36,5 @@
   ```
 ## Spring Boot Actuator endpoints:
 
-[![Image](https://github.com/vinodkumar7809/springboot_poc/spring_actuators/spring_boot_actuator/actuator_end_points.PNG "Spring Boot Actuator End points")]
+[![Image](https://github.com/vinodkumar7809/springboot_poc/blob/main/spring_actuators/spring_boot_actuator/actuator_end_points.PNG "Spring Boot Actuator End points")]
 
