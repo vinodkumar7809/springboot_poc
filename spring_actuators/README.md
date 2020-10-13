@@ -1,6 +1,6 @@
 # Adding Spring Boot Actuator
 
-  # Production ready features to help you Monitor and manage your application.
+  ### Production ready features to help you Monitor and manage your application.
 
 * Spring boot actuator provides production grade metrics, auditing, and monitoring features to your application.
 * Just adding the actuator dependency makes it available on our 8080 port. If
@@ -36,6 +36,11 @@
 			<artifactId>spring-data-rest-hal-browser</artifactId>
  </dependency>
   ```
+  
+### Links From cource:
+- http://localhost:8080/actuator
+- http://localhost:8080/browser/index.html#/
+
 ## Spring Boot Actuator endpoints:
 
 [![Image](https://github.com/vinodkumar7809/springboot_poc/blob/main/spring_actuators/spring_boot_actuator/actuator_end_points.PNG "Spring Boot Actuator End points")]
