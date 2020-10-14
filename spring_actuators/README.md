@@ -48,6 +48,9 @@
 * http://localhost:8080/actuator/scheduledtasks
 this scheduledtasks endpoint is use ful when you have a bunch of scheduled tasks in your application and thngs are not runnng as expected you can go to this actuator and see if the configuration is right for your scheduled tasks. 
 
+* http://localhost:8080/actuator/sessions
+[![Image](https://github.com/vinodkumar7809/springboot_poc/blob/main/spring_actuators/spring_boot_actuator/sessions_endpoint.PNG "Spring Boot Actuator End points")]
+
 ### Reference links:
 
   - https://spring.io/guides/gs/actuator-service/
