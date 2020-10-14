@@ -48,4 +48,5 @@
 ### Reference links:
 
   - https://spring.io/guides/gs/actuator-service/
+  - https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
 
