@@ -4,6 +4,23 @@ Internationalization is a process that makes your application adaptable to diffe
 changes on the source code. In ither words, Internationalization is a readiness of Localization.
 * The most common approach to i18n in Spring Boot is to use the messages.properties file to store all the messages for a specific language.
 
+## Database:
+We use a table to store all the localized messages for our application. The table has the following columns
+* id: an auto-increment value
+* locale: the language code
+* messagekey: the key of the message which is used in the HTML page to refer to the target message
+* messagecontent: the content of the message
+
+## Custom DBMessageSource
+
+### Messages Sources
+* Spring Boot application by default takes the message sources from src/main/resources folder under the classpath. 
+The default locale message file name should be message.properties and files for each locale should name as messages_XX.properties. 
+The “XX” represents the locale code.
+
+* All the message properties should be used as key pair values. If any properties are not found on the locale, 
+the application uses the default property from messages.properties file.
+
 ## Maven Dependencies
 For Web App
 ```sh
@@ -54,19 +71,3 @@ public LocaleResolver localeResolver() {
 * Bean annotation is added to mark this method as a Spring bean.
 * LocaleResolver interface is implemented using Spring’s built-in CookieLocaleResolver implementation.
 * The default locale is set for this locale resolver to return in the case that no cookie is found.
-## Database:
-We use a table to store all the localized messages for our application. The table has the following columns
-* id: an auto-increment value
-* locale: the language code
-* messagekey: the key of the message which is used in the HTML page to refer to the target message
-* messagecontent: the content of the message
-
-## Custom DBMessageSource
-
-### Messages Sources
-Spring Boot application by default takes the message sources from src/main/resources folder under the classpath. 
-The default locale message file name should be message.properties and files for each locale should name as messages_XX.properties. 
-The “XX” represents the locale code.
-
-All the message properties should be used as key pair values. If any properties are not found on the locale, 
-the application uses the default property from messages.properties file.
