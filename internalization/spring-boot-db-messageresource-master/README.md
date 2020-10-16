@@ -70,4 +70,8 @@ public LocaleResolver localeResolver() {
   
 * Bean annotation is added to mark this method as a Spring bean.
 * LocaleResolver interface is implemented using Spring’s built-in CookieLocaleResolver implementation.
+<<<<<<< HEAD
 * The default locale is set for this locale resolver to return in the case that no cookie is found.
+=======
+* The default locale is set for this locale resolver to return in the case that no cookie is found.
+>>>>>>> 68b35bb3e4474c651b1d58fd82f5453ac7816ac3
