@@ -1,6 +1,6 @@
 # Versioning
 
-The best approach to versioning is NOT to do it. Yeah, that’s right. Do not version as long as versioning is not needed.
+The best approach to versioning is NOT to do it. Do not version as long as versioning is not needed.
 
 ** Build your services to backward compatible so that you can avoid versioning as much as possible!
 
